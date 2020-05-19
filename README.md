@@ -37,7 +37,7 @@ Setup angular material.
 
 create two lazy-loaded components. 
 
-## >> Created two lazy-loaded components that is "quizcardComponent" which is implemented in homecomponent , In homecomponent "start quiz"button is there  after clicking on that button quizcardcomponent ,quizcardmodule get loaded in browser and appear with the quextions and answer option after answer the question next question get appears so this is going untill last question. 
+## >> Created two lazy-loaded components that is "quiz-cardComponent" which is implemented in homecomponent , In homecomponent "start quiz"button is there  after clicking on that button quiz-cardcomponent ,quizcardmodule get loaded in browser and appear with the quextions and answer option after answer the question next question get appears so this is going untill last question. 
 
 ## One more component created with lazy loading that is "customersComponent" when you naviaget "customers" mrnu from top menu then customercomponent get loaded in the browser and chunk js loaded.. you will see the nice customer profile card designs with scss and Angular material.
 
