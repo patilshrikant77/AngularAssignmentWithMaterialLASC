@@ -1,0 +1,13 @@
+<div class="container">
+<h1>Welcome To Shared Component  Carousel</h1>
+</div>
+<div class="container">
+    <carousel>
+      <ng-container *ngFor="let item of items;">
+        <ng-container *carouselItem>
+          <div class="item">{{item.title}}</div>
+        </ng-container>
+      </ng-container>
+    </carousel>
+
+  </div>

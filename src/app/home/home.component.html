@@ -1,0 +1,11 @@
+<div class="container">
+    <h1>Welcome To Angular CMS and Start Quiz with Lazy Loading Component </h1>
+     <button *ngIf="!quizStarted"
+              mat-raised-button color="primary"
+              class="start-quiz-button"
+              (click)="startQuiz()">Start quiz</button>
+      
+      <div class="quiz-card-container">
+        <ng-template #quizContainer></ng-template>
+      </div>
+</div>
